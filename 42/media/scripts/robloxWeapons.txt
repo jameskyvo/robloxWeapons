@@ -48,7 +48,7 @@ module JunkiezRobloxWeapons {
 		TreeDamage = 10,
 		WeaponLength = 0.3,
 		/*WeaponSprite = Machete,*/
-		WeaponSpritesByIndex = Machete;MacheteForged,
+		WeaponSpritesByIndex = linkedSword,
 		Tags = IgnoreZombieDensity;CutPlant;SharpKnife;ButcherAnimal;Sharpenable,
 
         Sharpness = 1.0,
