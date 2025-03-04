@@ -67,17 +67,17 @@ module JunkiezRobloxWeapons {
 		AimingPerkHitChanceModifier = 4,
 		AimingPerkMinAngleModifier = 0.05,
 		AimingPerkRangeModifier = 0,
-		AimingTime = 25,
+		AimingTime = 15,
 		AmmoBox = Bullets9mmBox,
-		AmmoType = Base.Bullets9mm,
+		AmmoType = JunkiezBulletsPaintball,
 		AttachmentType = Holster,
 		BreakSound = M9Break,
 		BringToBearSound = M9BringToBear,
 		ClickSound = M9Jam,
-		ClipSize = 15,
+		ClipSize = 25,
 		ConditionLowerChanceOneIn = 200,
 		ConditionMax = 10,
-		CritDmgMultiplier = 2,
+		CritDmgMultiplier = 1.2,
 		CriticalChance = 20,
 		DoorDamage = 5,
 		DropSound = M9Drop,
@@ -95,7 +95,7 @@ module JunkiezRobloxWeapons {
 		JamGunChance = 1,
 		KnockBackOnNoDeath = TRUE,
 		KnockdownMod = 2,
-		MagazineType = Base.9mmClip,
+		MagazineType = JunkiezPaintballMagazine,
 		MaxAmmo = 100,
 		MaxDamage = 0.1,
 		MaxHitCount = 1,
@@ -140,6 +140,35 @@ module JunkiezRobloxWeapons {
 		WeaponReloadType = handgun,
 		WeaponSprite = JunkiezPaintballGun,
 		Tags = HasMetal;Firearm,
+	}
+
+	item JunkiezPaintballMagazine
+	{
+		DisplayName = Paintball Magazine,
+		DisplayCategory = Ammo,
+		Type = Normal,
+		Weight = 0.2,
+		Icon = BerettaClip,
+		AmmoType = JunkiezPaintballPellet,
+		CanStack = FALSE,
+		GunType = JunkiezPaintballGun,
+		MaxAmmo = 25,
+		StaticModel = GunMagazine,
+		/*WorldStaticModel = Gun_Magazine_Ground,*/
+		WorldStaticModel = Gun_Pistol_Magazine,
+		Tags = HasMetal;PistolMagazine,
+	}
+
+	item JunkiezPaintballPellet
+	{
+		DisplayName = Paintball Pellet,
+		DisplayCategory = Ammo,
+		Type = Normal,
+		Weight = 0.001,
+		Icon = JunkiezPaintballPellet,
+		Count = 25,
+		WorldStaticModel = 9mmRounds,
+		Tags = Ammo,
 	}
 }
 
