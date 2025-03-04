@@ -1,0 +1,13 @@
+module Base
+{
+	model JunkiezPaintballGun
+	{
+		mesh = WorldItems/paintballgun,
+		texture	= WorldItems/paintBallGun,
+
+		attachment world
+		{
+			offset = 0.0000 -0.08 0,
+		}
+    }
+}
