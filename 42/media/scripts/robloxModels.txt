@@ -46,7 +46,7 @@ module Base
 
 		attachment world
 		{
-			offset = -0.10 0.08 0.00,
+			offset = -0.10 0.00 0.00,
 		}
 
 		attachment Bip01_Prop2
