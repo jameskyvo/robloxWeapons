@@ -7,7 +7,7 @@ module Base
 
 		attachment world
 		{
-			offset = 0.0000 -0.08 0,
+			offset = -0.10 0.08 0.00,
 		}
     }
 }
