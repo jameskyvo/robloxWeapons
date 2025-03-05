@@ -1,4 +1,4 @@
-module JunkiezRobloxWeapons {
+module JunkiezRobloxItems {
     imports {
         Base
     }
