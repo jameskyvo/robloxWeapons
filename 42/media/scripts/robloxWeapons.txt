@@ -69,6 +69,7 @@ module JunkiezRobloxWeapons {
 		AimingPerkRangeModifier = 0,
 		AimingTime = 15,
 		AmmoBox = Bullets9mmBox,
+		AmmoType = JunkiezPaintballPellet,
 		AttachmentType = Holster,
 		BreakSound = M9Break,
 		BringToBearSound = M9BringToBear,
