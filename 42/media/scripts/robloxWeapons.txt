@@ -170,5 +170,19 @@ module JunkiezRobloxWeapons {
 		WorldStaticModel = 9mmRounds,
 		Tags = Ammo,
 	}
+
+	item JunkiezPaintballBox
+	{
+		DisplayName = Box of Paintball Pellets,
+		DisplayCategory = Ammo,
+		Type = Normal,
+		Weight = 0.8,
+		Icon = JunkiezPaintballBox,
+		MetalValue = 30,
+		PlaceMultipleSound = BoxOfRoundsPlaceAll,
+		PlaceOneSound = BoxOfRoundsPlaceOne,
+		StaticModel = HandGunAmmoBox,
+		WorldStaticModel = HandGunAmmoBox,
+	}
 }
 

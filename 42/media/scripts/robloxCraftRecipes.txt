@@ -1,0 +1,23 @@
+module JunkiezRobloxWeapons {
+        imports {
+            Base
+        }
+    
+    craftRecipe JunkiezOpenPaintballBox
+	{
+        timedAction = OpenAmmoBox,
+		Time = 15,
+		category = Ammunition,
+        Tags = InHandCraft;CanBeDoneInDark,
+		inputs
+		{
+			item 1 [JunkiezRobloxWeapons.JunkiezPaintballBox] flags[Prop2] flags[AllowFavorite;InheritFavorite],
+		}
+		outputs
+		{
+			item 500 JunkiezRobloxWeapons.JunkiezPaintballPellet,
+		}
+	}
+}
+    
+    
